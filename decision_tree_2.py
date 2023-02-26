@@ -150,7 +150,6 @@ for ds in dataSets:
         #and then use the decision tree to make the class prediction. For instance: class_predicted = clf.predict([[3, 1, 2, 1]])[0]
         #where [0] is used to get an integer as the predicted class label so that you can compare it with the true label
         results = clf.predict(Xtest)
-
         #compare the prediction with the true label (located at data[4]) of the test instance to start calculating the accuracy.
         TP = 0
         TN = 0
